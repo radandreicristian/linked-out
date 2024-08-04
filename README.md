@@ -45,17 +45,17 @@ And then your model should be exported under `models/model.onnx`.
 
 # Disclaimers
 
-Q: Does it work?
-A: Not really. The similarity scores are weird sometimes, I've had both false positives and false negatives.
+> Q: Does it work?
+Not really. The similarity scores are weird sometimes, I've had both false positives and false negatives.
 
-Q: Does it impact my Chrome experience?
-A: You will probably have small delay/lag when loading your LinkedIn feed. This also depends on your resoruces.
+>Q: Does it impact my Chrome experience?
+You will probably have small delay/lag when loading your LinkedIn feed. This also depends on your resoruces.
 
-Q: Is this extension production-ready?
-A: No, I've just scaffolded it in a few hours with ChatGPT. I can conut on the fingers from my right hand how many times I have written JS/TS before. Apologies if the code makes your eyes bleed.
+>Q: Is this extension production-ready?
+No, I've just scaffolded it in a few hours with ChatGPT. I can conut on the fingers from my right hand how many times I have written JS/TS before. Apologies if the code makes your eyes bleed.
 
-Q: Can I fork this and do whatever I want?
-A: Yes, as long as you're not making money from it.
+>Q: Can I fork this and do whatever I want?
+Yes, as long as you're not making money from it.
 
-Q: Why no Docker for the Python thing?
-A: :shrug: 
+>Q: Why no Docker for the Python thing?
+:shrug: 
