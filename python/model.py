@@ -7,8 +7,9 @@ import torchvision.models as models
 # Load the pretrained EfficientNet model
 model = models.efficientnet_b0(weights="DEFAULT") 
 model.eval()  # Set the model to evaluation mode
+model = torch.nn.Sequential(*list(model.children())[:-1])
 
-dummy_input = torch.randn(1, 3, 512, 512)  # Batch size of 1, 3 color channels, 512x512 image size
+dummy_input = torch.randn(1, 3, 224, 224)  # Batch size of 1, 3 color channels, 224x224 image size
 
 models_folder_path = "../models"
 exported_model_path = os.path.join(models_folder_path, "model.onnx")

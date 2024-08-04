@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.ts && npm run copy_onnx_files && npm run copy_source_files",
-    "copy_source_files": "copyfiles -u 1 extension/manifest.json extension/popup.html extension/popup.css models/model.onnx dist/",
+    "copy_source_files": "copyfiles -u 1 extension/manifest.json extension/math.ts extension/utils.ts extension/storage.ts extension/popup.html extension/popup.css models/model.onnx dist/",
     "copy_onnx_files": "copyfiles -u 1 node_modules/onnxruntime-web/dist/*.wasm dist/wasm/"
   },
   "keywords": [],
