@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "linked-out",
+    "version": "0.1",
+    "description": "Purge memes from your LinkedIn feed",
+    "permissions": [
+      "offscreen",
+      "activeTab",
+      "scripting",
+      "contextMenus",
+      "storage",
+      "unlimitedStorage"
+    ],
+      "background": {
+      "service_worker": "background.js",
+      "type": "module"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.linkedin.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_security_policy": {
+      "extension_pages": "script-src 'self' 'wasm-unsafe-eval'"
+    }
+  }

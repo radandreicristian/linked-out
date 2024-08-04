@@ -1,0 +1,63 @@
+/* popup.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+#popup-content {
+  padding: 20px;
+  width: 300px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#upload {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #003f7f;
+}
+
+#image-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.filter-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

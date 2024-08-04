@@ -3,14 +3,28 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.ts && npm run copy_onnx_files && npm run copy_source_files",
+    "copy_source_files": "copyfiles -u 1 extension/manifest.json extension/popup.html extension/popup.css models/model.onnx dist/",
+    "copy_onnx_files": "copyfiles -u 1 node_modules/onnxruntime-web/dist/*.wasm dist/wasm/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/chrome": "^0.0.269",
+    "copyfiles": "^2.4.1",
     "eslint": "^9.8.0",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "xhr": "^2.6.0",
+    "xhr2": "^0.2.1"
+  },
+  "dependencies": {
+    "onnxruntime-web": "^1.18.0"
   }
 }
