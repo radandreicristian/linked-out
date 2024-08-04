@@ -1,8 +1,8 @@
 # LinkedOut - Purge Memes from Your Feed
 
-This extension helps professionals keep their LinkedIn feeds professional.
+This extension helps you keep your LinkedIn feed professional.
 
-=I've seen one too many memes with [Yusuf Dikec](https://www.google.com/search?q=yusuf+dikec&sa=X&sca_esv=f7839580003801af&sca_upv=1&sxsrf=ADLYWIKqjy8VveYuINKIuDn8h4r3fS6zHw:1722785722145&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWfbQph1uib-VfD_izZO2Y5sC3UdQE5x8XNnxUO1qJLaQR2rwhLa89xym2ORbEZb-gP1zIcrSJSb5m5VLWXlSjIaIG1x3OUX72o1bhPlysQIw2wexIfjr9hIq56rRLI7yjvrm-eU2rldmMeoWofpb8CbZ_Suo&ved=2ahUKEwjr9vf31NuHAxXNhP0HHVmCB8EQtKgLegQIAhAG&biw=1920&bih=934&dpr=1) for my own good in the past week. From attention grabbing to sales and product marketing, it's been adding a lot of noise.
+I've seen one too many memes with [Yusuf Dikec](https://www.google.com/search?q=yusuf+dikec&sa=X&sca_esv=f7839580003801af&sca_upv=1&sxsrf=ADLYWIKqjy8VveYuINKIuDn8h4r3fS6zHw:1722785722145&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWfbQph1uib-VfD_izZO2Y5sC3UdQE5x8XNnxUO1qJLaQR2rwhLa89xym2ORbEZb-gP1zIcrSJSb5m5VLWXlSjIaIG1x3OUX72o1bhPlysQIw2wexIfjr9hIq56rRLI7yjvrm-eU2rldmMeoWofpb8CbZ_Suo&ved=2ahUKEwjr9vf31NuHAxXNhP0HHVmCB8EQtKgLegQIAhAG&biw=1920&bih=934&dpr=1) for my own good in the past week. From attention grabbing to sales and product marketing, it's been adding a lot of noise.
 
 So I've created LinkedOut.
 
