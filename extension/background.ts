@@ -1,8 +1,8 @@
 // background.ts
 import { InferenceSession, Tensor, env } from 'onnxruntime-web';
 
-import { computeFeatureVector, cosineSimilarity } from './math';
-
+import { cosineSimilarity } from './math';
+import { computeFeatureVector } from './image';
 import { convertFromRegularArray } from './utils';
 
 import * as ort from 'onnxruntime-web';

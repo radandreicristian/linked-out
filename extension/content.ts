@@ -69,4 +69,4 @@ port.onMessage.addListener((msg) => {
 window.addEventListener("scroll", () => port.postMessage({ type: "CONNECTION" }));
 
 // Periodically re-check posts
-setInterval(() => port.postMessage({ type: "CONNECTION" }), 1000);
+setInterval(() => port.postMessage({ type: "CONNECTION" }), 10000);

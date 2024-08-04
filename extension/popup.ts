@@ -4,7 +4,8 @@ import * as ort from 'onnxruntime-web';
 import { convertToRegularArray, convertFromRegularArray} from './utils';
 import { getChromeStorage, setChromeStorage } from './storage';
 import {APP_NAME} from './constants';
-import { computeFeatureVector } from './math';
+import { computeFeatureVector } from './image';
+
 // Set WASM paths and number of threads
 ort.env.wasm.wasmPaths = {
   'ort-wasm.wasm': 'wasm/onnxruntime-web/dist/ort-wasm.wasm',
